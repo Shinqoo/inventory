@@ -1,0 +1,79 @@
+#login {
+	margin:0;
+	padding:0;
+	height: 100vh;
+	background: url(ConvenientS.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 70px 30px;
+}
+
+
+.loginbox {
+	width: 300px;
+	padding: 40px;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	border-radius:  24px;
+}
+
+.loginbox label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+ .loginbox input{
+ 	width: 80%;
+ 	margin-bottom: 20px;
+ }
+
+ .loginbox input{
+	display: block;
+	background: none;
+	outline: none;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.loginbox input[ type ="submit"]{
+	border: none;
+	display: block;
+	background: none;
+	outline: none;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius:  24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+  .loginbox label{
+  	text-decoration: none;
+  	font-size: 12px;
+  	line-height: 20px;
+  	color: darkgrey;
+  }
+
+   .loginbox label:hover{
+   	color: #fff;
+}
