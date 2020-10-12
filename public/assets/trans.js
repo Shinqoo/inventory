@@ -15,7 +15,7 @@ $(document).ready(function(){
           data: info,
           success: function(data){
             //do something with the data via front-end framework
-            window.location.replace(`/${data}`)
+            window.location.replace("/dashboard")
           }
         });
   
